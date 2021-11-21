@@ -24,7 +24,7 @@ def twitter_api():
 
 # write a function that gets a random image file, and opens it
 def select_random_image():
-    basedir = '/Users/hadiya/PycharmProjects/textile_art_bot/stolzl'
+    basedir = './stolzl'
     random_folder = random.choice(os.listdir(basedir))
     print(random_folder)
     title = random_folder
